@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+build/
+
+# Env (never commit secrets)
+.env
+.env*.local
+
+# SQLite (local user data)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Optional: vector cache (regenerates when using RAG_MODE=vector)
+data/embeddings.json
+
+# Debug / OS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.tsbuildinfo
+
+# Editor
+.cursor/
+
+# Vercel
+.vercel
